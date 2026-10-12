@@ -1,0 +1,293 @@
+{
+  "aggiornato": "2026-10-12",
+  "gare": [
+    {
+      "nome": "Maratona di Ravenna Città d'Arte",
+      "citta": "Ravenna",
+      "distanza": "maratona",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Mezza Maratona di Ravenna",
+      "citta": "Ravenna",
+      "distanza": "mezza",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Ravenna 10K",
+      "citta": "Ravenna",
+      "distanza": "10k",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Lago Maggiore Marathon",
+      "citta": "Arona - Verbania",
+      "distanza": "maratona",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Lago Maggiore Marathon - Mezza",
+      "citta": "Arona",
+      "distanza": "mezza",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Lago Maggiore Marathon - 10K",
+      "citta": "Fondotoce - Verbania",
+      "distanza": "10k",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Garda Trentino Half Marathon",
+      "citta": "Riva del Garda / Arco",
+      "distanza": "mezza",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Garda Trentino 10K",
+      "citta": "Riva del Garda / Arco",
+      "distanza": "10k",
+      "data": "2026-11-08"
+    },
+    {
+      "nome": "Verona Run Marathon",
+      "citta": "Verona",
+      "distanza": "maratona",
+      "data": "2026-11-15"
+    },
+    {
+      "nome": "Verona Run Half Marathon",
+      "citta": "Verona",
+      "distanza": "mezza",
+      "data": "2026-11-15"
+    },
+    {
+      "nome": "Maratona Città di Palermo",
+      "citta": "Palermo",
+      "distanza": "maratona",
+      "data": "2026-11-15"
+    },
+    {
+      "nome": "Mezza Maratona Città di Palermo",
+      "citta": "Palermo",
+      "distanza": "mezza",
+      "data": "2026-11-15"
+    },
+    {
+      "nome": "Powerade Milano Half Marathon (ex Milano21)",
+      "citta": "Milano",
+      "distanza": "mezza",
+      "data": "2026-11-22"
+    },
+    {
+      "nome": "Powerade Milano Half Marathon 10K",
+      "citta": "Milano",
+      "distanza": "10k",
+      "data": "2026-11-22"
+    },
+    {
+      "nome": "Firenze Marathon",
+      "citta": "Firenze",
+      "distanza": "maratona",
+      "data": "2026-11-29"
+    },
+    {
+      "nome": "10K Firenze Marathon",
+      "citta": "Firenze",
+      "distanza": "10k",
+      "data": "2026-11-29"
+    },
+    {
+      "nome": "Fiat Torino City Marathon",
+      "citta": "Torino",
+      "distanza": "maratona",
+      "data": "2026-11-29"
+    },
+    {
+      "nome": "Torino City Half Marathon",
+      "citta": "Torino",
+      "distanza": "mezza",
+      "data": "2026-11-29"
+    },
+    {
+      "nome": "Maratona di Latina",
+      "citta": "Latina",
+      "distanza": "maratona",
+      "data": "2026-12-06"
+    },
+    {
+      "nome": "Maratona di Reggio Emilia Città del Tricolore",
+      "citta": "Reggio Emilia",
+      "distanza": "maratona",
+      "data": "2026-12-13"
+    },
+    {
+      "nome": "Mezza Maratona del Tricolore",
+      "citta": "Reggio Emilia",
+      "distanza": "mezza",
+      "data": "2026-12-13"
+    },
+    {
+      "nome": "Maratona di Pisa",
+      "citta": "Pisa",
+      "distanza": "maratona",
+      "data": "2026-12-20"
+    },
+    {
+      "nome": "La Pisanina - Mezza Maratona di Pisa",
+      "citta": "Pisa",
+      "distanza": "mezza",
+      "data": "2026-12-20"
+    },
+    {
+      "nome": "We Run Rome",
+      "citta": "Roma",
+      "distanza": "10k",
+      "data": "2026-12-31"
+    },
+    {
+      "nome": "Bergamo21 Half Marathon",
+      "citta": "Bergamo",
+      "distanza": "mezza",
+      "data": "2027-01-31"
+    },
+    {
+      "nome": "Bergamo21 10K",
+      "citta": "Bergamo",
+      "distanza": "10k",
+      "data": "2027-01-31"
+    },
+    {
+      "nome": "Romeo&Giulietta Run Half Marathon",
+      "citta": "Verona",
+      "distanza": "mezza",
+      "data": "2027-02-14"
+    },
+    {
+      "nome": "Napoli City Half Marathon",
+      "citta": "Napoli",
+      "distanza": "mezza",
+      "data": "2027-02-21"
+    },
+    {
+      "nome": "Ferrara Marathon",
+      "citta": "Ferrara",
+      "distanza": "maratona",
+      "data": "2027-02-28"
+    },
+    {
+      "nome": "Ferrara Half Marathon",
+      "citta": "Ferrara",
+      "distanza": "mezza",
+      "data": "2027-02-28"
+    },
+    {
+      "nome": "Ferrara City Run 10K",
+      "citta": "Ferrara",
+      "distanza": "10k",
+      "data": "2027-02-28"
+    },
+    {
+      "nome": "RomaOstia Half Marathon",
+      "citta": "Roma",
+      "distanza": "mezza",
+      "data": "2027-02-28"
+    },
+    {
+      "nome": "Lago Maggiore Half Marathon",
+      "citta": "Stresa - Verbania",
+      "distanza": "mezza",
+      "data": "2027-03-07"
+    },
+    {
+      "nome": "Brescia Art Marathon",
+      "citta": "Brescia",
+      "distanza": "maratona",
+      "data": "2027-03-14"
+    },
+    {
+      "nome": "Brescia Art Half Marathon",
+      "citta": "Brescia",
+      "distanza": "mezza",
+      "data": "2027-03-14"
+    },
+    {
+      "nome": "Brescia Art Marathon 10K",
+      "citta": "Brescia",
+      "distanza": "10k",
+      "data": "2027-03-14"
+    },
+    {
+      "nome": "Acea Run Rome The Marathon",
+      "citta": "Roma",
+      "distanza": "maratona",
+      "data": "2027-03-14"
+    },
+    {
+      "nome": "Stramilano Half Marathon",
+      "citta": "Milano",
+      "distanza": "mezza",
+      "data": "2027-03-21"
+    },
+    {
+      "nome": "Stramilano 10 km",
+      "citta": "Milano",
+      "distanza": "10k",
+      "data": "2027-03-21"
+    },
+    {
+      "nome": "Wizz Air Milano Marathon",
+      "citta": "Milano",
+      "distanza": "maratona",
+      "data": "2027-04-04"
+    },
+    {
+      "nome": "Half Marathon Firenze",
+      "citta": "Firenze",
+      "distanza": "mezza",
+      "data": "2027-04-04"
+    },
+    {
+      "nome": "Mezza Maratona di Latina",
+      "citta": "Latina",
+      "distanza": "mezza",
+      "data": "2027-04-04"
+    },
+    {
+      "nome": "Lake Garda 42",
+      "citta": "Limone sul Garda - Malcesine",
+      "distanza": "maratona",
+      "data": "2027-04-11"
+    },
+    {
+      "nome": "Lake Garda 21",
+      "citta": "Arco - Malcesine",
+      "distanza": "mezza",
+      "data": "2027-04-11"
+    },
+    {
+      "nome": "Padova Marathon",
+      "citta": "Padova",
+      "distanza": "maratona",
+      "data": "2027-04-18"
+    },
+    {
+      "nome": "Padova Half Marathon",
+      "citta": "Abano Terme - Padova",
+      "distanza": "mezza",
+      "data": "2027-04-18"
+    },
+    {
+      "nome": "Trieste Spring Run - Trieste 42K",
+      "citta": "Trieste",
+      "distanza": "maratona",
+      "data": "2027-05-02"
+    },
+    {
+      "nome": "Trieste Spring Run - Trieste 21K",
+      "citta": "Trieste",
+      "distanza": "mezza",
+      "data": "2027-05-02"
+    }
+  ]
+}

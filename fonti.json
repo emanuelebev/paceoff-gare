@@ -1,0 +1,444 @@
+[
+  {
+    "nome": "La Mezza di Genova",
+    "citta": "Genova",
+    "distanza": "mezza",
+    "data": "2026-04-19",
+    "data_confermata": false,
+    "fonte": "https://www.lamezzadigenova.it",
+    "nota": "Edizione 2027 non annunciata: data dell'edizione 2026 (19/04/2026); attesa ad aprile 2027"
+  },
+  {
+    "nome": "Lucca Half Marathon",
+    "citta": "Lucca",
+    "distanza": "mezza",
+    "data": "2026-05-03",
+    "data_confermata": false,
+    "fonte": "https://endorphinsrunning.com/races/lucca-lucca",
+    "nota": "Edizione 2027 non annunciata: data dell'edizione 2026 (03/05/2026); attesa a inizio maggio 2027"
+  },
+  {
+    "nome": "Maratona di Ravenna Città d'Arte",
+    "citta": "Ravenna",
+    "distanza": "maratona",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.maratonadiravenna.com"
+  },
+  {
+    "nome": "Mezza Maratona di Ravenna",
+    "citta": "Ravenna",
+    "distanza": "mezza",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.maratonadiravenna.com"
+  },
+  {
+    "nome": "Ravenna 10K",
+    "citta": "Ravenna",
+    "distanza": "10k",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.maratonadiravenna.com"
+  },
+  {
+    "nome": "Lago Maggiore Marathon",
+    "citta": "Arona - Verbania",
+    "distanza": "maratona",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.lagomaggioremarathon.it"
+  },
+  {
+    "nome": "Lago Maggiore Marathon - Mezza",
+    "citta": "Arona",
+    "distanza": "mezza",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.lagomaggioremarathon.it"
+  },
+  {
+    "nome": "Lago Maggiore Marathon - 10K",
+    "citta": "Fondotoce - Verbania",
+    "distanza": "10k",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.lagomaggioremarathon.it"
+  },
+  {
+    "nome": "Garda Trentino Half Marathon",
+    "citta": "Riva del Garda / Arco",
+    "distanza": "mezza",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.trentinoeventi.it"
+  },
+  {
+    "nome": "Garda Trentino 10K",
+    "citta": "Riva del Garda / Arco",
+    "distanza": "10k",
+    "data": "2026-11-08",
+    "data_confermata": true,
+    "fonte": "https://www.trentinoeventi.it"
+  },
+  {
+    "nome": "Verona Run Marathon",
+    "citta": "Verona",
+    "distanza": "maratona",
+    "data": "2026-11-15",
+    "data_confermata": true,
+    "fonte": "https://www.veronarunevents.it/"
+  },
+  {
+    "nome": "Verona Run Half Marathon",
+    "citta": "Verona",
+    "distanza": "mezza",
+    "data": "2026-11-15",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/maratona-di-verona",
+    "nota": "Data della mezza da aggregatore (stessa giornata della maratona, data confermata sul sito ufficiale)"
+  },
+  {
+    "nome": "Maratona Città di Palermo",
+    "citta": "Palermo",
+    "distanza": "maratona",
+    "data": "2026-11-15",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/maratona-di-palermo",
+    "nota": "Sito ufficiale non raggiungibile; scheda Finishers validata dall'organizzatore"
+  },
+  {
+    "nome": "Mezza Maratona Città di Palermo",
+    "citta": "Palermo",
+    "distanza": "mezza",
+    "data": "2026-11-15",
+    "data_confermata": true,
+    "fonte": "https://running.life/it/evento/maratona-di-palermo",
+    "nota": "Sito ufficiale non raggiungibile; stesso evento della maratona"
+  },
+  {
+    "nome": "Powerade Milano Half Marathon (ex Milano21)",
+    "citta": "Milano",
+    "distanza": "mezza",
+    "data": "2026-11-22",
+    "data_confermata": true,
+    "fonte": "https://followyourpassion.it/gare-running-cycling-triathlon/"
+  },
+  {
+    "nome": "Powerade Milano Half Marathon 10K",
+    "citta": "Milano",
+    "distanza": "10k",
+    "data": "2026-11-22",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/en/event/milano21",
+    "nota": "10K nello stesso evento secondo aggregatori"
+  },
+  {
+    "nome": "Firenze Marathon",
+    "citta": "Firenze",
+    "distanza": "maratona",
+    "data": "2026-11-29",
+    "data_confermata": true,
+    "fonte": "https://www.firenzemarathon.it"
+  },
+  {
+    "nome": "10K Firenze Marathon",
+    "citta": "Firenze",
+    "distanza": "10k",
+    "data": "2026-11-29",
+    "data_confermata": true,
+    "fonte": "https://www.firenzemarathon.it"
+  },
+  {
+    "nome": "Fiat Torino City Marathon",
+    "citta": "Torino",
+    "distanza": "maratona",
+    "data": "2026-11-29",
+    "data_confermata": true,
+    "fonte": "https://www.fiatorinocitymarathon.it/"
+  },
+  {
+    "nome": "Torino City Half Marathon",
+    "citta": "Torino",
+    "distanza": "mezza",
+    "data": "2026-11-29",
+    "data_confermata": true,
+    "fonte": "https://www.fiatorinocitymarathon.it/city-half-marathon"
+  },
+  {
+    "nome": "Prosecco Run (ex Treviso Marathon)",
+    "citta": "Valdobbiadene/Conegliano (TV)",
+    "distanza": "maratona",
+    "data": "2026-12-06",
+    "data_confermata": false,
+    "fonte": "http://www.prosecco.run/",
+    "nota": "Il sito indica il weekend 5-6 dicembre 2026 senza il giorno di ogni gara; domenica 6 da verificare"
+  },
+  {
+    "nome": "Prosecco Run Half Marathon",
+    "citta": "Valdobbiadene/Conegliano (TV)",
+    "distanza": "mezza",
+    "data": "2026-12-06",
+    "data_confermata": false,
+    "fonte": "http://www.prosecco.run/",
+    "nota": "Weekend 5-6 dicembre 2026, giorno esatto da verificare"
+  },
+  {
+    "nome": "Prosecco Run Bollicina 10K",
+    "citta": "Valdobbiadene/Conegliano (TV)",
+    "distanza": "10k",
+    "data": "2026-12-06",
+    "data_confermata": false,
+    "fonte": "http://www.prosecco.run/",
+    "nota": "Weekend 5-6 dicembre 2026, giorno esatto da verificare"
+  },
+  {
+    "nome": "Maratona di Latina",
+    "citta": "Latina",
+    "distanza": "maratona",
+    "data": "2026-12-06",
+    "data_confermata": true,
+    "fonte": "https://trainerday.com/events/it/25-maratona-di-latina-2026",
+    "nota": "Solo aggregatori, sito ufficiale non trovato"
+  },
+  {
+    "nome": "Maratona di Reggio Emilia Città del Tricolore",
+    "citta": "Reggio Emilia",
+    "distanza": "maratona",
+    "data": "2026-12-13",
+    "data_confermata": true,
+    "fonte": "https://www.maratonadireggioemilia.it"
+  },
+  {
+    "nome": "Mezza Maratona del Tricolore",
+    "citta": "Reggio Emilia",
+    "distanza": "mezza",
+    "data": "2026-12-13",
+    "data_confermata": true,
+    "fonte": "https://www.maratonadireggioemilia.it",
+    "nota": "Stesso evento della maratona"
+  },
+  {
+    "nome": "Maratona di Pisa",
+    "citta": "Pisa",
+    "distanza": "maratona",
+    "data": "2026-12-20",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/maratona-di-pisa",
+    "nota": "Sito ufficiale non raggiungibile; scheda Finishers validata dall'organizzatore"
+  },
+  {
+    "nome": "La Pisanina - Mezza Maratona di Pisa",
+    "citta": "Pisa",
+    "distanza": "mezza",
+    "data": "2026-12-20",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/maratona-di-pisa",
+    "nota": "Stesso evento della maratona"
+  },
+  {
+    "nome": "We Run Rome",
+    "citta": "Roma",
+    "distanza": "10k",
+    "data": "2026-12-31",
+    "data_confermata": true,
+    "fonte": "https://www.werunrome.com"
+  },
+  {
+    "nome": "Bergamo21 Half Marathon",
+    "citta": "Bergamo",
+    "distanza": "mezza",
+    "data": "2027-01-31",
+    "data_confermata": true,
+    "fonte": "https://followyourpassion.it/bergamo21/"
+  },
+  {
+    "nome": "Bergamo21 10K",
+    "citta": "Bergamo",
+    "distanza": "10k",
+    "data": "2027-01-31",
+    "data_confermata": true,
+    "fonte": "https://followyourpassion.it/bergamo21/"
+  },
+  {
+    "nome": "Romeo&Giulietta Run Half Marathon",
+    "citta": "Verona",
+    "distanza": "mezza",
+    "data": "2027-02-14",
+    "data_confermata": true,
+    "fonte": "https://www.romeoegiuliettarunhalfmarathon.it"
+  },
+  {
+    "nome": "Napoli City Half Marathon",
+    "citta": "Napoli",
+    "distanza": "mezza",
+    "data": "2027-02-21",
+    "data_confermata": true,
+    "fonte": "https://www.napolirunning.com/"
+  },
+  {
+    "nome": "Ferrara Marathon",
+    "citta": "Ferrara",
+    "distanza": "maratona",
+    "data": "2027-02-28",
+    "data_confermata": true,
+    "fonte": "https://www.ferraramarathon.com"
+  },
+  {
+    "nome": "Ferrara Half Marathon",
+    "citta": "Ferrara",
+    "distanza": "mezza",
+    "data": "2027-02-28",
+    "data_confermata": true,
+    "fonte": "https://www.ferraramarathon.com"
+  },
+  {
+    "nome": "Ferrara City Run 10K",
+    "citta": "Ferrara",
+    "distanza": "10k",
+    "data": "2027-02-28",
+    "data_confermata": true,
+    "fonte": "https://www.ferraramarathon.com"
+  },
+  {
+    "nome": "RomaOstia Half Marathon",
+    "citta": "Roma",
+    "distanza": "mezza",
+    "data": "2027-02-28",
+    "data_confermata": true,
+    "fonte": "https://www.romaostia.it"
+  },
+  {
+    "nome": "Lago Maggiore Half Marathon",
+    "citta": "Stresa - Verbania",
+    "distanza": "mezza",
+    "data": "2027-03-07",
+    "data_confermata": true,
+    "fonte": "https://www.lmhm.it"
+  },
+  {
+    "nome": "Brescia Art Marathon",
+    "citta": "Brescia",
+    "distanza": "maratona",
+    "data": "2027-03-14",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/brescia-art-marathon",
+    "nota": "Sito ufficiale non ancora aggiornato; data confermata dall'organizzatore su Finishers"
+  },
+  {
+    "nome": "Brescia Art Half Marathon",
+    "citta": "Brescia",
+    "distanza": "mezza",
+    "data": "2027-03-14",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/brescia-art-marathon",
+    "nota": "Sito ufficiale non ancora aggiornato"
+  },
+  {
+    "nome": "Brescia Art Marathon 10K",
+    "citta": "Brescia",
+    "distanza": "10k",
+    "data": "2027-03-14",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/brescia-art-marathon",
+    "nota": "Sito ufficiale non ancora aggiornato"
+  },
+  {
+    "nome": "Acea Run Rome The Marathon",
+    "citta": "Roma",
+    "distanza": "maratona",
+    "data": "2027-03-14",
+    "data_confermata": true,
+    "fonte": "https://www.runromethemarathon.com"
+  },
+  {
+    "nome": "Stramilano Half Marathon",
+    "citta": "Milano",
+    "distanza": "mezza",
+    "data": "2027-03-21",
+    "data_confermata": true,
+    "fonte": "https://www.stramilano.it"
+  },
+  {
+    "nome": "Stramilano 10 km",
+    "citta": "Milano",
+    "distanza": "10k",
+    "data": "2027-03-21",
+    "data_confermata": true,
+    "fonte": "https://www.stramilano.it"
+  },
+  {
+    "nome": "Wizz Air Milano Marathon",
+    "citta": "Milano",
+    "distanza": "maratona",
+    "data": "2027-04-04",
+    "data_confermata": true,
+    "fonte": "https://www.milanomarathon.it"
+  },
+  {
+    "nome": "Half Marathon Firenze",
+    "citta": "Firenze",
+    "distanza": "mezza",
+    "data": "2027-04-04",
+    "data_confermata": true,
+    "fonte": "https://www.halfmarathonfirenze.it"
+  },
+  {
+    "nome": "Mezza Maratona di Latina",
+    "citta": "Latina",
+    "distanza": "mezza",
+    "data": "2027-04-04",
+    "data_confermata": true,
+    "fonte": "https://www.finishers.com/it/evento/mezza-maratona-di-latina",
+    "nota": "Solo aggregatori"
+  },
+  {
+    "nome": "Lake Garda 42",
+    "citta": "Limone sul Garda - Malcesine",
+    "distanza": "maratona",
+    "data": "2027-04-11",
+    "data_confermata": true,
+    "fonte": "https://www.lakegarda42.com"
+  },
+  {
+    "nome": "Lake Garda 21",
+    "citta": "Arco - Malcesine",
+    "distanza": "mezza",
+    "data": "2027-04-11",
+    "data_confermata": true,
+    "fonte": "https://www.lakegarda42.com"
+  },
+  {
+    "nome": "Padova Marathon",
+    "citta": "Padova",
+    "distanza": "maratona",
+    "data": "2027-04-18",
+    "data_confermata": true,
+    "fonte": "https://www.padovamarathon.com/maratona/"
+  },
+  {
+    "nome": "Padova Half Marathon",
+    "citta": "Abano Terme - Padova",
+    "distanza": "mezza",
+    "data": "2027-04-18",
+    "data_confermata": true,
+    "fonte": "https://www.padovamarathon.com/mezza-maratona/"
+  },
+  {
+    "nome": "Trieste Spring Run - Trieste 42K",
+    "citta": "Trieste",
+    "distanza": "maratona",
+    "data": "2027-05-02",
+    "data_confermata": true,
+    "fonte": "https://www.triestespringrun.com",
+    "nota": "Ex Bavisela / Trieste Running Festival"
+  },
+  {
+    "nome": "Trieste Spring Run - Trieste 21K",
+    "citta": "Trieste",
+    "distanza": "mezza",
+    "data": "2027-05-02",
+    "data_confermata": true,
+    "fonte": "https://www.triestespringrun.com"
+  }
+]
