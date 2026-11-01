@@ -440,5 +440,14 @@
     "data": "2027-05-02",
     "data_confermata": true,
     "fonte": "https://www.triestespringrun.com"
+  },
+  {
+    "nome": "Bologna Run Tune Up (Mezza Maratona)",
+    "citta": "Bologna",
+    "distanza": "mezza",
+    "data": "2027-03-07",
+    "data_confermata": false,
+    "fonte": "https://www.bolognamarathon.run/?lang=en",
+    "nota": "Il titolo del sito ufficiale indica il 7 marzo 2027, ma il sito non e' raggiungibile da qui: da verificare il programma gare (mezza) prima di confermare"
   }
 ]
