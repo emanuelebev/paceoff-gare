@@ -1,54 +1,6 @@
 {
-  "aggiornato": "2026-11-01",
+  "aggiornato": "2026-11-09",
   "gare": [
-    {
-      "nome": "Maratona di Ravenna Città d'Arte",
-      "citta": "Ravenna",
-      "distanza": "maratona",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Mezza Maratona di Ravenna",
-      "citta": "Ravenna",
-      "distanza": "mezza",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Ravenna 10K",
-      "citta": "Ravenna",
-      "distanza": "10k",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Lago Maggiore Marathon",
-      "citta": "Arona - Verbania",
-      "distanza": "maratona",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Lago Maggiore Marathon - Mezza",
-      "citta": "Arona",
-      "distanza": "mezza",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Lago Maggiore Marathon - 10K",
-      "citta": "Fondotoce - Verbania",
-      "distanza": "10k",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Garda Trentino Half Marathon",
-      "citta": "Riva del Garda / Arco",
-      "distanza": "mezza",
-      "data": "2026-11-08"
-    },
-    {
-      "nome": "Garda Trentino 10K",
-      "citta": "Riva del Garda / Arco",
-      "distanza": "10k",
-      "data": "2026-11-08"
-    },
     {
       "nome": "Verona Run Marathon",
       "citta": "Verona",
@@ -264,6 +216,12 @@
       "citta": "Arco - Malcesine",
       "distanza": "mezza",
       "data": "2027-04-11"
+    },
+    {
+      "nome": "La Mezza di Genova",
+      "citta": "Genova",
+      "distanza": "mezza",
+      "data": "2027-04-18"
     },
     {
       "nome": "Padova Marathon",

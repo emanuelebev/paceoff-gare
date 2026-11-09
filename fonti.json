@@ -1,14 +1,5 @@
 [
   {
-    "nome": "La Mezza di Genova",
-    "citta": "Genova",
-    "distanza": "mezza",
-    "data": "2026-04-19",
-    "data_confermata": false,
-    "fonte": "https://www.lamezzadigenova.it",
-    "nota": "Edizione 2027 non annunciata: data dell'edizione 2026 (19/04/2026); attesa ad aprile 2027"
-  },
-  {
     "nome": "Lucca Half Marathon",
     "citta": "Lucca",
     "distanza": "mezza",
@@ -16,70 +7,6 @@
     "data_confermata": false,
     "fonte": "https://endorphinsrunning.com/races/lucca-lucca",
     "nota": "Edizione 2027 non annunciata: data dell'edizione 2026 (03/05/2026); attesa a inizio maggio 2027"
-  },
-  {
-    "nome": "Maratona di Ravenna Città d'Arte",
-    "citta": "Ravenna",
-    "distanza": "maratona",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.maratonadiravenna.com"
-  },
-  {
-    "nome": "Mezza Maratona di Ravenna",
-    "citta": "Ravenna",
-    "distanza": "mezza",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.maratonadiravenna.com"
-  },
-  {
-    "nome": "Ravenna 10K",
-    "citta": "Ravenna",
-    "distanza": "10k",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.maratonadiravenna.com"
-  },
-  {
-    "nome": "Lago Maggiore Marathon",
-    "citta": "Arona - Verbania",
-    "distanza": "maratona",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.lagomaggioremarathon.it"
-  },
-  {
-    "nome": "Lago Maggiore Marathon - Mezza",
-    "citta": "Arona",
-    "distanza": "mezza",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.lagomaggioremarathon.it"
-  },
-  {
-    "nome": "Lago Maggiore Marathon - 10K",
-    "citta": "Fondotoce - Verbania",
-    "distanza": "10k",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.lagomaggioremarathon.it"
-  },
-  {
-    "nome": "Garda Trentino Half Marathon",
-    "citta": "Riva del Garda / Arco",
-    "distanza": "mezza",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.trentinoeventi.it"
-  },
-  {
-    "nome": "Garda Trentino 10K",
-    "citta": "Riva del Garda / Arco",
-    "distanza": "10k",
-    "data": "2026-11-08",
-    "data_confermata": true,
-    "fonte": "https://www.trentinoeventi.it"
   },
   {
     "nome": "Verona Run Marathon",
@@ -317,6 +244,15 @@
     "fonte": "https://www.lmhm.it"
   },
   {
+    "nome": "Bologna Run Tune Up (Mezza Maratona)",
+    "citta": "Bologna",
+    "distanza": "mezza",
+    "data": "2027-03-07",
+    "data_confermata": false,
+    "fonte": "https://www.bolognamarathon.run/?lang=en",
+    "nota": "Il titolo del sito ufficiale indica il 7 marzo 2027, ma il sito non e' raggiungibile da qui: da verificare il programma gare (mezza) prima di confermare"
+  },
+  {
     "nome": "Brescia Art Marathon",
     "citta": "Brescia",
     "distanza": "maratona",
@@ -409,6 +345,14 @@
     "fonte": "https://www.lakegarda42.com"
   },
   {
+    "nome": "La Mezza di Genova",
+    "citta": "Genova",
+    "distanza": "mezza",
+    "data": "2027-04-18",
+    "data_confermata": true,
+    "fonte": "https://www.lamezzadigenova.it"
+  },
+  {
     "nome": "Padova Marathon",
     "citta": "Padova",
     "distanza": "maratona",
@@ -440,14 +384,5 @@
     "data": "2027-05-02",
     "data_confermata": true,
     "fonte": "https://www.triestespringrun.com"
-  },
-  {
-    "nome": "Bologna Run Tune Up (Mezza Maratona)",
-    "citta": "Bologna",
-    "distanza": "mezza",
-    "data": "2027-03-07",
-    "data_confermata": false,
-    "fonte": "https://www.bolognamarathon.run/?lang=en",
-    "nota": "Il titolo del sito ufficiale indica il 7 marzo 2027, ma il sito non e' raggiungibile da qui: da verificare il programma gare (mezza) prima di confermare"
   }
 ]
