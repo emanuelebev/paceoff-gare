@@ -1,0 +1,66 @@
+# Ogni mattina chiede una seduta al servizio che fa i file FIT per Pace Off
+# sull'orologio Garmin, ai due indirizzi: garmin.paceoff.it (dalla 1.0.2) e
+# workers.dev (1.0.0 e 1.0.1). Se uno non risponde, anche dopo due minuti,
+# apre una issue qui (una sola, poi la commenta) e il controllo resta
+# rosso: GitHub manda la mail. Quando torna a rispondere la chiude.
+# Sta qui e non in una routine cloud perche' la rete delle routine non
+# raggiunge siti fuori dall'elenco consentito (9 novembre 2026).
+name: Il servizio Garmin
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  controlla:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chiedi una seduta ai due indirizzi
+        id: prova
+        run: |
+          S='s=w900s_x8_l500m260-265_r90s_c600s&n=Mar%2017%20Ripetute%208x500'
+          male=""
+          for u in https://garmin.paceoff.it https://paceoff-garmin.paceoff-garmin-servizio.workers.dev; do
+            for tentativo in 1 2; do
+              rm -f f.fit
+              codice=$(curl -sS -m 20 -o f.fit -w '%{http_code}' "$u/seduta.fit?$S" 2>err.txt) || codice="$codice $(tail -1 err.txt)"
+              if [ "$codice" = 200 ] && [ "$(wc -c < f.fit)" -gt 50 ] && [ "$(dd if=f.fit bs=1 skip=8 count=4 2>/dev/null)" = ".FIT" ]; then
+                echo "$u: risponde ($(wc -c < f.fit) byte)"
+                codice=ok
+                break
+              fi
+              echo "$u: $codice (tentativo $tentativo)"
+              if [ "$tentativo" = 1 ]; then sleep 120; fi
+            done
+            if [ "$codice" != ok ]; then male="$male- $u: $codice"$'\n'; fi
+          done
+          {
+            echo 'male<<FINE'
+            printf '%s' "$male"
+            echo 'FINE'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Apri o chiudi la issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MALE: ${{ steps.prova.outputs.male }}
+        run: |
+          TITOLO="Il servizio delle sedute Garmin non risponde"
+          ORA=$(TZ=Europe/Rome date '+%d/%m/%Y %H:%M')
+          aperta=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$TITOLO\"" --json number --jq '.[0].number // empty')
+          if [ -n "$MALE" ]; then
+            CORPO=$(printf 'Controllo del %s, dopo due tentativi a due minuti:\n\n%s\nLe sedute gia'"'"' sugli orologi restano, le nuove non arrivano. Da guardare nella chat di Pace Off (garmin/servizio, `npx wrangler deploy` dal terminale di Emanuele).' "$ORA" "$MALE")
+            if [ -z "$aperta" ]; then
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITOLO" --body "$CORPO"
+            else
+              gh issue comment "$aperta" --repo "$GITHUB_REPOSITORY" --body "$CORPO"
+            fi
+            exit 1
+          elif [ -n "$aperta" ]; then
+            gh issue close "$aperta" --repo "$GITHUB_REPOSITORY" --comment "Risponde di nuovo, tutti e due gli indirizzi ($ORA)."
+          fi
