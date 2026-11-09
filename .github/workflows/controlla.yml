@@ -1,0 +1,24 @@
+# Controlla gare.json e versione.json a ogni modifica, e sulle pull request
+# della routine mensile: se qualcosa non va, la modifica resta rossa e non
+# si unisce. Le regole sono in controlla.mjs.
+name: Controllo dei file
+
+on:
+  push:
+    paths: ['gare.json', 'versione.json', 'fonti.json', 'controlla.mjs', '.github/workflows/controlla.yml']
+  pull_request:
+    paths: ['gare.json', 'versione.json', 'fonti.json', 'controlla.mjs', '.github/workflows/controlla.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  controlla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node controlla.mjs
