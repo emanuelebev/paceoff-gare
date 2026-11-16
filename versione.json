@@ -1,5 +1,9 @@
 {
   "buildMinima": 2611091234,
   "garminMinima": 203,
-  "campoMinima": 10010
+  "campoMinima": 10010,
+  "amico": {
+    "codice": "AMICO",
+    "fino": "2027-05-16"
+  }
 }

@@ -80,7 +80,7 @@ if (gare) {
 
 const v = leggi('versione.json');
 if (v) {
-  const ammesse = ['buildMinima', 'buildMinimaTestFlight', 'garminMinima', 'campoMinima'];
+  const ammesse = ['buildMinima', 'buildMinimaTestFlight', 'garminMinima', 'campoMinima', 'amico'];
   for (const k of Object.keys(v)) if (!ammesse.includes(k)) sbaglia(`versione.json: chiave sconosciuta ${k}`);
   // Una build e' data e ora (2611091621): 0 vuol dire nessun blocco.
   const build = (n) => n === 0 || (Number.isInteger(n) && /^2[5-9]\d{8}$/.test(String(n)));
@@ -90,6 +90,17 @@ if (v) {
   if (!Number.isInteger(v.buildMinima)) sbaglia('versione.json: manca buildMinima');
   for (const k of ['garminMinima', 'campoMinima']) {
     if (v[k] !== undefined && !(Number.isInteger(v[k]) && v[k] > 0 && v[k] < 1e6)) sbaglia(`versione.json: ${k} deve essere un intero fra 1 e 999999 (c'e' ${v[k]})`);
+  }
+  // «Regala un mese» (dalla 1.1): il codice dell'offerta di App Store
+  // Connect e il giorno in cui scade. Senza, l'app non propone il regalo.
+  if (v.amico !== undefined) {
+    const a = v.amico;
+    const chiaviA = a && typeof a === 'object' ? Object.keys(a).sort().join(',') : '';
+    if (chiaviA !== 'codice,fino') sbaglia('versione.json: amico deve avere solo codice e fino');
+    else {
+      if (!/^[A-Z0-9]{3,20}$/.test(a.codice)) sbaglia(`versione.json: amico.codice solo lettere maiuscole e cifre, da 3 a 20 (c'e' ${a.codice})`);
+      if (!dataVera(a.fino)) sbaglia(`versione.json: amico.fino deve essere una data vera AAAA-MM-GG (c'e' ${a.fino})`);
+    }
   }
 }
 
